@@ -25,9 +25,11 @@
     UITBCChatsViewController *chats = [[UITBCChatsViewController alloc] init];
     chats.tabBarItem.title = @"Chats";
     chats.tabBarItem.image = [UIImage imageNamed:@"chats.png"];
+    chats.tabBarItem.badgeValue = @"27";
     UITBCContactsViewController *contacts = [[UITBCContactsViewController alloc] init];
     contacts.tabBarItem.title = @"Contacts";
     contacts.tabBarItem.image = [UIImage imageNamed:@"contacts.png"];
+    contacts.tabBarItem.badgeValue = @"99";
     tabBarC.viewControllers = @[chats, contacts];
 //    [tabBarC addChildViewController:chats];
 //    [tabBarC addChildViewController:contacts];
